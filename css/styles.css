@@ -688,7 +688,7 @@ max-width: 264px;
 .span-label {
     width: 16px;
     height: 16px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
+border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
@@ -698,6 +698,26 @@ max-width: 264px;
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
+}
+
+.link-label {
+    color: #4d5ae5;;
+}
+
+.btn-mod {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
