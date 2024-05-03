@@ -661,14 +661,13 @@ pointer-events: auto;
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    fill: #4D5AE5;
 }
 
 .in-mod:focus {
     border-color: #4D5AE5;
 }
 
-.in-mod:focus > .svg-input {
+.svg-input > .in-mod:focus {
     fill: #4D5AE5;
 }
 
