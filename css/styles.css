@@ -663,8 +663,11 @@ pointer-events: auto;
 }
 
 .in-mod:focus {
-    fill: #4D5AE5;
     border-color: #4D5AE5;
+}
+
+.in-mod:focus > .svg-input {
+    fill: #4D5AE5;
 }
 
 .svg-input {
