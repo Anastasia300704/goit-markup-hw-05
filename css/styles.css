@@ -719,6 +719,8 @@ pointer-events: auto;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    fill: transparent;
 }
 
 .link-label {
@@ -728,8 +730,8 @@ pointer-events: auto;
 
 .checkbox-privacy:checked + .label-privacy > .span-label {
 background-color: #404bbf;
-fill: transparent;
-border: 1px solid rgba(46, 47, 66, 0.4);
+border: none;
+fill: #F4F4FD;
 }
 
 .btn-mod {
