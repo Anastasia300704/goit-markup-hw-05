@@ -739,7 +739,7 @@ pointer-events: auto;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.in-mod:focus {
+.in-mod:focus + .svg-input {
     border-color: #4D5AE5;
     fill: #4D5AE5;
 }
