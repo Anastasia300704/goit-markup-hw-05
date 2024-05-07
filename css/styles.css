@@ -537,10 +537,6 @@ max-width: 264px;
     color: #f4f4fd;
 }
 
-.social-container-bottom {
-    margin-right: 36px;
-}
-
 .container-bottom {
     display: flex;
     align-items: baseline;
@@ -576,6 +572,10 @@ max-width: 264px;
 
 .svg-link {
     fill: #f4f4fd;
+}
+
+.subscribe {
+    margin-left: 35px;
 }
 
 .subscribe-paragraph {
