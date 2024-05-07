@@ -754,7 +754,7 @@ pointer-events: auto;
     border-color: #4D5AE5;
 }
 
-.in-mod:focus + .svg-input-person {
+.in-mod:focus {
     fill: #4D5AE5;
 }
 
@@ -764,6 +764,7 @@ pointer-events: auto;
         top: 50%;
         transform: translateY(-50%);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        fill: #4D5AE5;
 }
 
 .svg-input {
