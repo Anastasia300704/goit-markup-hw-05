@@ -830,6 +830,7 @@ pointer-events: auto;
     justify-content: center;
     border: 1px solid rgba(46, 47, 66, 0.4);
     fill: transparent;
+    margin-right: 8px;
 }
 
 .link-label {
@@ -841,7 +842,6 @@ pointer-events: auto;
 background-color: #404bbf;
 border: none;
 fill: #F4F4FD;
-margin-right: 8px;
 }
 
 .btn-mod {
