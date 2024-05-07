@@ -604,7 +604,6 @@ max-width: 264px;
     padding-left: 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    color: #ffffff;
 }
 
 .E-mail::placeholder {
@@ -797,6 +796,9 @@ pointer-events: auto;
 
 .comment-textarea:focus {
     border-color: #4D5AE5;
+}
+
+.Text input::placeholder {
     color: rgba(46, 47, 66, 0.4);
 }
 
